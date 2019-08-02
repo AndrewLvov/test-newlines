@@ -10,3 +10,13 @@ metadata:
     app.kubernetes.io/name: {{ template "test-newlines.name" . }}
 data:
   test-newlines.ini: "{{ .Values.configFile }}"
+  test-newlines.conf: |
+    an alligator
+    and another animal
+
+    become 
+    basically beaten
+
+    
+    cause cicrcles
+    can't cure consussion
